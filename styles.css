@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: #485460;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #283149;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(images/door.png);
+}
+
+.a {
+  background-image: url(images/water.png);
+}
+
+.s {
+  background-image: url(images/drum.png);
+}
+
+.d {
+  background-image: url(images/keys.png);
+}
+
+.j {
+  background-image: url(images/lock.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+.icons {
+  background-size: 125px 125px;
+  background-repeat: no-repeat;
+  outline: none;
+  border: 10px solid #d2dae2;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
